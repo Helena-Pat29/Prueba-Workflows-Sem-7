@@ -1,7 +1,6 @@
 import unittest
 import datetime
 from src.mi_proyecto.persona import Persona
-##Incluir comentario
 
 
 class PersonaTestCase(unittest.TestCase):
