@@ -1,6 +1,7 @@
 import unittest
 import datetime
 import numpy
+import sys
 from src.mi_proyecto.persona import Persona
 #Testing Mensaje 2
 
@@ -43,3 +44,4 @@ class PersonaTestCase(unittest.TestCase):
    def test_instancia_clase(self):
       self.assertIsInstance(self.persona1, Persona)
       self.assertNotIsInstance(self.grupo, Persona)
+
